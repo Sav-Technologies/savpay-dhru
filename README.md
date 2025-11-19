@@ -24,7 +24,8 @@ This module enables Dhru Fusion users to accept payments through SavPay, includi
 1. Download the module ZIP file.
 2. Upload the module folder to your Dhru Fusion installation:
 
-/modules/payment/savpay/
+/modules/gateways/savpay.php
+/modules/gateways/callback/savpay.php
 
 3. Go to your **Dhru Admin Panel**.
 4. Navigate to:
@@ -80,7 +81,8 @@ SavPay only processes **payment-related transaction information**.
 ### Module does not appear?
 - Ensure folder structure is correct:
 
-modules/payment/savpay/
+/modules/gateways/savpay.php
+/modules/gateways/callback/savpay.php
 
 ---
 
